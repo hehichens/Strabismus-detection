@@ -9,15 +9,11 @@ import glob
 '''
 
 def get_face_feature(img):
-
-
 	detector = dlib.get_frontal_face_detector()
 	dets = detector(img)
 	print("检测到%d张人脸" % len(dets))
 	for i, d in enumerate(dets):
 		shape = predictor(img, d)
-
-
 
 		landmarks = np.mat([[p.x, p.y] for p in shape.parts()])
 
@@ -38,7 +34,7 @@ def get_face_feature(img):
 cap = cv2.VideoCapture(0) #0从摄像头读取视频，或者改成视频文件路径"D:/anydata/video/2.mp4"
 win = dlib.image_window()
 
-predictor_path = 'dat/shape_predictor_68_face_landmarks.dat'
+predictor_path = 'C:/Users/hichens/Desktop/Strabismus-detection/hichens/dat/shape_predictor_68_face_landmarks.dat'
 predictor = dlib.shape_predictor(predictor_path)
 
 while(cap.isOpened()):

@@ -36,10 +36,10 @@ def get_face_feature(img):
 
 
 
-cap = cv2.VideoCapture("D:/anydata/video/2.mp4") #0从摄像头读取视频，或者改成视频文件路径"D:/anydata/video/2.mp4"
+cap = cv2.VideoCapture(0) #0从摄像头读取视频，或者改成视频文件路径"D:/anydata/video/2.mp4"
 win = dlib.image_window()
 
-predictor_path = 'dat/shape_predictor_68_face_landmarks.dat'
+predictor_path = 'C:/Users/hichens/Desktop/Strabismus-detection/hichens/dat/shape_predictor_68_face_landmarks.dat'
 predictor = dlib.shape_predictor(predictor_path)
 
 while(cap.isOpened()):
