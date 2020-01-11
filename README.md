@@ -1,7 +1,7 @@
-# Strabismus-detection
+ï»¿# Strabismus-detection
 
 to detect the strabismus in the vedio
 
 
-### byÄãµÄÍ··¢»¹ºÃÂğ
+### byä½ çš„å¤´å‘è¿˜å¥½å—
 
