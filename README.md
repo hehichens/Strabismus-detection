@@ -1,7 +1,7 @@
 # Strabismus-detection
 
+to detect the strabismus in the vedio
 
-### to detect the strabismus in the vedio
 
+### by你的头发还好吗
 
-### by 你的头发还好吗
