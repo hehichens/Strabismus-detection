@@ -12,7 +12,7 @@ import glob
 #根据自己的实际情况更改目录。
 #要转换的图片的保存地址，按顺序排好，后面会一张一张按顺序读取。
 input_image_path = 'D:/anydata/images/'
-out_video_path = 'D:/anydata/test.avi' #格式mp4, avi
+out_video_path = 'D:/anydata/1.mp4' #格式mp4, avi
 
 #帧率(fps)，尺寸(size)，此处设置的fps为24，size为图片的大小，本文转换的图片大小为400×1080，
 #即宽为400，高为1080，要根据自己的情况修改图片大小。

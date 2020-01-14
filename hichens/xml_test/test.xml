@@ -1,0 +1,160 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<?xml-stylesheet type='text/xsl' href='image_metadata_stylesheet.xsl'?>
+<dataset>
+<name>imglab dataset</name>
+<comment>Created by imglab tool.</comment>
+<images>
+  <image file='101.jpg'>
+    <box top='455' left='44' width='51' height='42'>
+      <label>eye</label>
+    </box>
+    <box top='438' left='247' width='41' height='45'>
+      <label>eye</label>
+    </box>
+  </image>
+  <image file='107.jpg'>
+    <box top='461' left='86' width='46' height='53'>
+      <label>eye</label>
+    </box>
+    <box top='449' left='283' width='53' height='44'>
+      <label>eye</label>
+    </box>
+  </image>
+  <image file='11.jpg'>
+    <box top='439' left='24' width='47' height='43'>
+      <label>eye</label>
+    </box>
+    <box top='409' left='277' width='53' height='50'>
+      <label>eye</label>
+    </box>
+  </image>
+  <image file='113.jpg'>
+    <box top='461' left='80' width='34' height='43'>
+      <label>eye</label>
+    </box>
+    <box top='430' left='265' width='59' height='55'>
+      <label>eye</label>
+    </box>
+  </image>
+  <image file='17.jpg'>
+    <box top='468' left='101' width='62' height='51'>
+      <label>eye</label>
+    </box>
+    <box top='450' left='365' width='73' height='49'>
+      <label>eye</label>
+    </box>
+  </image>
+  <image file='23.jpg'>
+    <box top='446' left='86' width='61' height='51'>
+      <label>eye</label>
+    </box>
+    <box top='415' left='351' width='49' height='63'>
+      <label>eye</label>
+    </box>
+  </image>
+  <image file='29.jpg'>
+    <box top='430' left='76' width='44' height='65'>
+      <label>eye</label>
+    </box>
+    <box top='408' left='332' width='52' height='63'>
+      <label>eye</label>
+    </box>
+  </image>
+  <image file='35.jpg'>
+    <box top='364' left='71' width='78' height='71'>
+      <label>eye</label>
+    </box>
+    <box top='371' left='382' width='74' height='59'>
+      <label>eye</label>
+    </box>
+  </image>
+  <image file='41.jpg'>
+    <box top='393' left='65' width='77' height='56'>
+      <label>eye</label>
+    </box>
+    <box top='387' left='366' width='68' height='61'>
+      <label>eye</label>
+    </box>
+  </image>
+  <image file='47.jpg'>
+    <box top='453' left='84' width='60' height='51'>
+      <label>eye</label>
+    </box>
+    <box top='449' left='362' width='73' height='53'>
+      <label>eye</label>
+    </box>
+  </image>
+  <image file='5.jpg'>
+    <box top='435' left='43' width='68' height='50'>
+      <label>eye</label>
+    </box>
+    <box top='402' left='322' width='55' height='54'>
+      <label>eye</label>
+    </box>
+  </image>
+  <image file='53.jpg'>
+    <box top='376' left='66' width='74' height='59'>
+      <label>eye</label>
+    </box>
+    <box top='373' left='361' width='81' height='58'>
+      <label>eye</label>
+    </box>
+  </image>
+  <image file='59.jpg'>
+    <box top='292' left='18' width='47' height='45'>
+      <label>eye</label>
+    </box>
+    <box top='278' left='272' width='46' height='45'>
+      <label>eye</label>
+    </box>
+  </image>
+  <image file='65.jpg'>
+    <box top='307' left='104' width='74' height='71'>
+      <label>eye</label>
+    </box>
+    <box top='298' left='358' width='68' height='72'>
+      <label>eye</label>
+    </box>
+  </image>
+  <image file='71.jpg'>
+    <box top='277' left='70' width='60' height='64'>
+      <label>eye</label>
+    </box>
+    <box top='265' left='326' width='74' height='77'>
+      <label>eye</label>
+    </box>
+  </image>
+  <image file='77.jpg'>
+    <box top='301' left='80' width='59' height='69'>
+      <label>eye</label>
+    </box>
+    <box top='296' left='355' width='72' height='73'>
+      <label>eye</label>
+    </box>
+  </image>
+  <image file='83.jpg'>
+    <box top='301' left='48' width='70' height='76'>
+      <label>eye</label>
+    </box>
+    <box top='296' left='316' width='88' height='72'>
+      <label>eye</label>
+    </box>
+  </image>
+  <image file='89.jpg'>
+    <box top='341' left='91' width='65' height='73'>
+      <label>eye</label>
+    </box>
+    <box top='329' left='361' width='81' height='77'>
+      <label>eye</label>
+    </box>
+  </image>
+  <image file='95.jpg'>
+    <box top='488' left='83' width='44' height='34'>
+      <label>eye</label>
+    </box>
+    <box top='462' left='293' width='55' height='50'>
+      <label>eye</label>
+    </box>
+  </image>
+</images>
+</dataset>

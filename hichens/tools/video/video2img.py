@@ -8,7 +8,7 @@ timeF ：帧数间隔
 '''
 
 import cv2
-videoFile = 'D:/anydata/video/1.mp4'
+videoFile = 'D:/anydata/video/4.mp4'
 outputFile = 'D:/anydata/images/'
 
 vc = cv2.VideoCapture(videoFile)
