@@ -21,5 +21,6 @@
 ## [xml_train](https://github.com/hehichens/Strabismus-detection/tree/master/hichens/xml_train)[xml_test](https://github.com/hehichens/Strabismus-detection/tree/master/hichens/xml_test)
   xml文件
 
+--- 
 
-[HOG](https://www.cnblogs.com/hichens/p/12203071.html)
+## [HOG](https://www.cnblogs.com/hichens/p/12203071.html)
