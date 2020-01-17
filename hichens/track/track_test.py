@@ -5,8 +5,6 @@ import sys
 import dlib
 import cv2
 import glob
-
-
 '''
 用来测试
 我用的是images文件中的图片
@@ -14,7 +12,7 @@ import glob
 训练好的 detector.svm 在 svm 文件中
 
 '''
-detector = dlib.simple_object_detector("detector.svm")
+detector = dlib.simple_object_detector("detector1.svm")
 
 current_path = os.getcwd()
 test_folder = "C:/Users/hichens/Desktop/Strabismus-detection/hichens/images/"

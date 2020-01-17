@@ -14,7 +14,7 @@ track = [] #track分别跟踪左右眼
 for i in range(2):
 	track.append(dlib.correlation_tracker())
 
-detector = dlib.simple_object_detector("/home/hichens/Desktop/detector.svm")
+detector = dlib.simple_object_detector("/home/hichens/Desktop/detector1.svm")
 cap = cv2.VideoCapture("/mnt/hgfs/Ubuntu/anydata/video/7.mp4")
 
 def detector_img(img):

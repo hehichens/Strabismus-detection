@@ -25,8 +25,8 @@ options.be_verbose = True
 
 # 获取路径
 path = "C:/Users/hichens/Desktop"
-train_xml_path = "D:/Ubuntu/anydata/xml/train/train.xml"
-test_xml_path = "D:/Ubuntu/anydata/xml/test/test.xml"
+train_xml_path = "D:/Ubuntu/images/images_train/xml_train.xml"
+test_xml_path  = "D:/Ubuntu/images/images_test/xml_test.xml"
 
 #out_path = "C:/Users/hichens/Desktop/detector.svm"
 
@@ -37,11 +37,11 @@ print("testing file path:" + test_xml_path)
 
 # 开始训练
 print("start training:")
-dlib.train_simple_object_detector(train_xml_path, 'detector.svm', options)
+dlib.train_simple_object_detector(train_xml_path, 'detector1.svm', options)
 
 print("")  # Print blank line to create gap from previous output
 print("Training accuracy: {}".format(
-    dlib.test_simple_object_detector(train_xml_path, "detector.svm")))
+    dlib.test_simple_object_detector(train_xml_path, "detector1.svm")))
 
 print("Testing accuracy: {}".format(
-    dlib.test_simple_object_detector(test_xml_path, "detector.svm")))
+    dlib.test_simple_object_detector(test_xml_path, "detector1.svm")))
