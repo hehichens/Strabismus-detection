@@ -14,7 +14,7 @@ import dlib
 import cv2
 
 tracker = dlib.correlation_tracker()   # 导入correlation_tracker()类
-cap = cv2.VideoCapture(0)   # OpenCV打开摄像头或者视频"D:/anydata/video/2.mp4"
+cap = cv2.VideoCapture("/mnt/hgfs/Ubuntu/anydata/video/12.mp4")   # OpenCV打开摄像头或者视频"D:/anydata/video/2.mp4"
 start_flag = True   # 标记，是否是第一帧，若在第一帧需要先初始化
 selection = None   # 实时跟踪鼠标的跟踪区域
 track_window = None   # 要检测的物体所在区域

@@ -17,7 +17,6 @@ cap = cv2.VideoCapture(0)
 detector = dlib.simple_object_detector("C:/Users/hichens/Desktop/Strabismus-detection/hichens/svm/detector.svm")
 current_path = os.getcwd()
 test_folder = "C:/Users/hichens/Desktop/Strabismus-detection/hichens/images/"
-#win = dlib.image_window()
 
 while (cap.isOpened()):
 	ret, frame = cap.read()
